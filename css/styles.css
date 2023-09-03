@@ -90,13 +90,11 @@ img{
   text-decoration: none;
   margin-bottom: 20px;
    /*======= create a background property. Set the value to #F87B99 */
-background-color:#F87B99;
-animation-name: style;
-animation-duration:4s ;
-animation-iteration-count:infinite;
+   background-color: #F87B99;
+
 }
 @keyframes style{
-  0%{background-color: #F87B99;}
+  0%{}
   25%{background-color: coral
   }
   50%{background-color: #ae2444;}
@@ -109,6 +107,9 @@ animation-iteration-count:infinite;
 /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
 color: pink;
 background-color: white;
+animation-name: style;
+animation-duration:4s ;
+animation-iteration-count:infinite;
 }
 
 /*======= Create a selector for the about section to have the following styles:
