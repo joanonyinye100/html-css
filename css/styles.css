@@ -90,7 +90,20 @@ img{
   text-decoration: none;
   margin-bottom: 20px;
    /*======= create a background property. Set the value to #F87B99 */
-background-color:#F87B99;}
+background-color:#F87B99;
+animation-name: style;
+animation-duration:4s ;
+animation-iteration-count:infinite;
+}
+@keyframes style{
+  0%{background-color: #F87B99;}
+  25%{background-color: coral
+  }
+  50%{background-color: #ae2444;}
+  75%{background-color: #741d31;}
+  100%{ background-color: rgb(18, 1, 4);}
+  
+}
 
 .container header nav a:hover {
 /*======= create a background property and set it to white.  Then create a color property and set it's value to pink. */
