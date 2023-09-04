@@ -22,8 +22,7 @@ Host your solution on Github Pages and link for the solution to be shared on pum
 
 /*======= Create a new universal selector that changes the font color to: #3C373B */
 *{
-
-}
+color: #3c3738;}
 
 h1 {
   font-family: 'Gaegu', cursive;
